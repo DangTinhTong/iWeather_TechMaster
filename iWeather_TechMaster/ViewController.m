@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *Locations;
+@property (weak, nonatomic) IBOutlet UILabel *Temperature;
+@property (weak, nonatomic) IBOutlet UIImageView *statusWeather;
+@property (weak, nonatomic) IBOutlet UILabel *Quotes;
 
 @end
 

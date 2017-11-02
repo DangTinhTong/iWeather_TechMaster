@@ -72,10 +72,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.36864098899999997" green="1" blue="0.30439817060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="Locations" destination="xFt-BU-8dH" id="W8n-jP-KRh"/>
+                        <outlet property="Quotes" destination="BmM-Mj-7lo" id="azp-2P-ihS"/>
+                        <outlet property="Temperature" destination="GPY-US-SE1" id="kM3-nt-OjT"/>
+                        <outlet property="statusWeather" destination="eNg-En-2Dg" id="1g8-jb-jhH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
+            <point key="canvasLocation" x="273" y="128"/>
         </scene>
     </scenes>
     <resources>
