@@ -53,7 +53,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trên con đường thành công, không có dấu chân của kẻ lười biếng." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmM-Mj-7lo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trên con đường thành công, không có dấu chân của kẻ lười biếng." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmM-Mj-7lo">
                                 <rect key="frame" x="47" y="423" width="275" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -68,6 +68,9 @@
                                 <rect key="frame" x="116" y="558" width="86" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Update"/>
+                                <connections>
+                                    <action selector="UpdateIweather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vMk-1U-Eeg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.36864098899999997" green="1" blue="0.30439817060000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
