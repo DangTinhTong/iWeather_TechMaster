@@ -47,7 +47,14 @@
     
     unsigned int photoIndex=arc4random_uniform(photoFiles.count);
     self.statusWeather.image =[UIImage imageNamed:photoFiles[photoIndex]];
+    
+    NSString* string =[NSString stringWithFormat:@"%2.1f",[self getTemperature]];
+  
+//[self.Temperature setTitle:string forState:UIControlStateNormal];
 }
-
+-(float)getTemperature{
+    return 14.0+arc4random_uniform(18)+(float)arc4random()/(float)INT32_MAX;
+    
+}
 
 @end
